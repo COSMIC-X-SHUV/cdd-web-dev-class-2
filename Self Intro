@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Self introduction</title>
+</head>
+<body>    
+<header>
+<nav>
+<ul>
+<li><u>Home</u></li>
+<li><u>About</u></li>
+<li><u>contact</u></li>
+</ul>
+</nav>
+</header>
+<main>      
+<section>      
+<h2>Home</h2>   
+<button>Click here</button> 
+</section>     
+<section>      
+<h2>About </h2>  
+<button>Click here</button>     
+</section>     
+<section>       
+<h2>Contact </h2> 
+<button>Click here</button>    
+</section>        
+</main>   
+<footer>copyright &copy; 2025 by Shuvabrata Sahoo
+</footer>
+</body>
+</html>
