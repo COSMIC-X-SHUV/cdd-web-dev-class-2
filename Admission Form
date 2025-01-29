@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Admission Form</title>
+</head>
+<body>
+<header>
+<p><b>IIT Sitalapali</b></p>
+<nav>
+<ul>                    
+<li><u>About</u></li>
+<li><u>Gallery</u></li>
+<li><u>Know your faculty</u></li>
+</ul>
+</nav>
+</header>
+<main>
+<h4><b>College</b><i> Admission</i><b> Form</b></h4>
+<section>
+<form>
+<!-- Writing Candidate Name -->
+<p><i>Name</i></p>
+<input type="text" name="first_name" placeholder="Enter your first name">
+<br>
+<input type="text" name="last_name" placeholder="Enter your last name">
+<br><br>
+
+<!-- Writing Birthdate -->
+<label for="birthdate"><i>Enter your birthdate</i>:</label>
+<input type="date" id="birthdate" name="birthdate" required>
+<br>
+
+<!-- Writing Gender -->
+<p>Gender</p>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female 
+<br>
+
+<!-- Contact Details -->
+<p>Phone Number</p>
+<input type="number" name="phone" placeholder="Enter your Phone Number">
+<br>
+
+<p>E-mail Address</p>
+<input type="email" name="email" placeholder="Enter your E-mail Id">
+<br>
+
+<!-- Writing Location -->
+<p>Address</p>
+<input type="text" name="address" placeholder="Enter your Address">
+<br>
+
+<p>Pincode</p>
+<input type="number" name="pincode" placeholder="Enter your Pincode">
+<br>
+
+<p>Enter Your City</p>
+<select name="city" id="city">
+  <option value="Bhubaneswar">Bhubaneswar</option>
+  <option value="Berhampur">Berhampur</option>
+  <option value="Cuttuck">Cuttuck</option>
+  <option value="Koraput">Koraput</option>
+  <option value="Keonjhar">Keonjhar</option>
+  <option value="Balasore">Balasore</option>
+</select>
+<br><br>
+
+<!-- Submit Button -->
+<button type="submit">Submit</button>
+
+</form>
+</section>
+</main>
+<footer>
+<p>&copy; 2025 Shuvabrata Sahoo. All rights reserved.</p>
+</footer>
+</body>
+</html>
