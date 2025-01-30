@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Self introduction</title>
+<link real = "stylesheet" href = "style.css"/>
 </head>
 <body>    
 <header>
@@ -14,19 +15,25 @@
 </ul>
 </nav>
 </header>
-<main>      
-<section>      
+<main>   
+<div class = "cz 1">
+<section>  
 <h2>Home</h2>   
 <button>Click here</button> 
-</section>     
+</section> 
+</div>
+<div class = "cz 2">
 <section>      
 <h2>About </h2>  
 <button>Click here</button>     
-</section>     
+</section>  
+</div>
+<div class = "cz 3">
 <section>       
 <h2>Contact </h2> 
 <button>Click here</button>    
-</section>        
+</section>  
+</div>
 </main>   
 <footer>copyright &copy; 2025 by Shuvabrata Sahoo
 </footer>
